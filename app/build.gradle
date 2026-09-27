@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.parcel.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.parcel.app'
+        minSdk 23
+        targetSdk 35
+        versionCode 12
+        versionName '12.0'
+    }
+}
